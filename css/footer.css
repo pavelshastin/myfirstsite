@@ -1,0 +1,14 @@
+/*.footer_social li {
+	display: block;
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	background-image: url(../images/css_sprites.png);
+	background-position: 92px 60px;	
+}
+
+
+.footer_social li a:after {
+	content: '';
+
+}*/
