@@ -1,14 +1,81 @@
-/*.footer_social li {
-	display: block;
-	width: 30px;
-	height: 30px;
-	border-radius: 50%;
-	background-image: url(../images/css_sprites.png);
-	background-position: 92px 60px;	
+
+@font-face {
+	font-family: "FiraSan Regular";               
+    src: "../fonts/FiraSans-Regular.otf";
 }
 
 
-.footer_social li a:after {
-	content: '';
 
-}*/
+.footer {
+	position: relative; //VERY IMPORTANT in combination with negative margin. links and pseudoclasses work fine.
+	width: 100%;
+	max-width: 1200px;
+	height: 50px;
+	margin: 0px auto;
+	margin-top: -50px;
+	background-color: #414141;
+}
+
+.footer_conf {
+	float: left;
+	line-height: 50px;
+	margin-left: 130px;
+    font-family: "FiraSan Regular", san-serif;
+	font-size: 14px;
+	color: #727272;
+}
+
+
+.footer_social {
+	display: inline-flex;
+	float: right;
+	margin: 10px 130px 10px 0px;
+	padding: 0px;
+	list-style: none;
+}
+
+
+.footer_social a {
+	background-color:  #414141;
+	width: 30px;
+	height: 30px;
+	margin-left: 6px;
+	border-radius: 50%;	
+	display: block;
+}
+
+
+.footer_social__fb {
+	background-image: url(../images/css_sprites.png);
+	background-position: 105px 112px;	
+}
+
+
+.footer_social__vk {
+	background-image: url(../images/css_sprites.png);
+	background-position: 104px 163px;	
+}
+
+
+.footer_social__tw {
+	background-image: url(../images/css_sprites.png);
+	background-position: 155px 113px;	
+}
+
+
+ a.footer_social__fb:hover {
+	background-image: url(../images/css_sprites.png);
+	background-position: 207px 113px;
+}
+
+
+a.footer_social__vk:hover {
+	background-image: url(../images/css_sprites.png);
+	background-position: 155px 163px;	
+}
+
+
+a.footer_social__tw:hover {
+	background-image: url(../images/css_sprites.png);
+	background-position: 206px 163px;	
+}
