@@ -1,0 +1,90 @@
+@font-face {
+	font-family: "FiraSan Regular";               
+    src: url(../fonts/FiraSans-Regular.otf);
+}
+
+@font-face {
+	font-family: "FiraSan Light";               
+    src: url(../fonts/FiraSans-Light.otf);
+}
+
+@font-face {
+	font-family: "FiraSan Bold";               
+    src: url(../fonts/FiraSans-Bold.otf);
+}
+
+.header {
+	width: 100%;
+	height: 82px;
+	background-color: #f6f6f6;
+	position: relative;
+}
+
+
+.grad_border {
+	position: absolute;
+	width: 100%;
+	top: 79px;
+	height: 3px;
+	background-image: linear-gradient(to top, #d5d5d5, #f0f0f0);
+}
+
+.header_container {
+	min-height: 100%;
+	max-width: 1200px;
+	margin: 0px auto;
+}
+
+
+.header_logo {
+	height: 60px;
+	width: 60px;
+	border-radius: 50%;
+	margin: 8px 0px 11px 130px;
+	float: left;
+	box-shadow: 0px 0px 2px 2px #999999;
+	
+}
+
+
+.header_name {	
+	float: left;
+	margin: 28px 0px 22px 20px;
+	padding: 0px;
+	font-size: 18px;
+	font-family: "FiraSan Regular";
+}
+
+
+.header_contacts {
+	position: relative;
+	float: right;
+	margin: 28px 130px 22px 0px;
+	padding: 0px;
+	font-size: 18px;
+	font-family: "FiraSan Light";
+}
+
+
+.header_contacts a {
+	text-decoration: none;
+	padding: 0px ;
+}
+
+.header_contacts > a {
+	color: #32c3e5;
+	border-bottom: 2px dotted #32c3e5;
+	font-family: "FiraSan Bold";
+
+}
+
+.cont_pallete {
+	position: absolute;
+	margin: 0px;
+	padding: 0px;
+}
+
+
+.cont_pallete_list {
+
+}
