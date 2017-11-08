@@ -19,6 +19,9 @@ html, body {
 .container {
 	max-width: 1200px;
 	margin: 0px auto;
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: center;
 }
 
 .empty {
