@@ -19,14 +19,6 @@
 	order: 1;
 }
 
-.content {
-	flex-shrink: 85;
-	display: flex;
-	width: 850px;
-	background-color: #f6f6f6;
-	order: 2;
-}
-
 .sidebar_menu {
 	display: flex;
 	flex-flow: column wrap;

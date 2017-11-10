@@ -27,8 +27,7 @@
 	order: 2;
 	flex-flow: row wrap;
 	justify-content: space-between;
-	padding-left: 20px;
-	padding-top: 20px;
+	padding: 20px 130px 0px 20px;
 }
 
 .main_header {
@@ -55,7 +54,6 @@
 .career {
 	order: 2;
 	width: 380px;
-	margin: 0px 130px 0px 0px;
 	padding: 0px;
 	list-style: none;
 	font-family: "FiraSans Regular";
